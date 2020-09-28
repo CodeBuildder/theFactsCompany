@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -26,16 +27,20 @@
         <br>
         <br>
         <br>
+        <h2>Facts of the world.</h2>
         <div class="box">
             <div class="content">
+                <div class="reload"><a href="" class="fas fa-redo-alt"></a></div>
+                <center>
                 <h1>Getcha the Factcha!</h1>
-                    The fact for the day is: <div id = "factsMessage"></div>
-                    The author is: <div id = "authorMessage">
-                </div>
-        </div>
+                   <div class="fact"> The fact for the day is:</div> <div id = "factsMessage"></div>
+                    <div class="auth">The author is:</div> <div id = "authorMessage"></div>
+            </div>
+            </center>
+        </div>    
 
 
-       {{!-- {{>footer}}  --}}
+       {{>footer}} 
 
         <script src="./js/app.js"></script>
     </body>
